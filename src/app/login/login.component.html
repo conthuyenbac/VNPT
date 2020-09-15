@@ -1,0 +1,26 @@
+<div class="container">
+    <div style="width:100%; text-align:center;background-color:#f9f9f3;">
+        <img src="assets/Avatar/login_icon.png" alt="" style="margin:1em auto;" />
+    </div>
+    <div class="panel-body panel-login white-bg">
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-md-6 text-align:center">
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label"> Username: </label>
+                        <input type="text" class="form-control" placeholder="*Enter Username" id="userId" [(ngModel)]="userId">
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label"> Pass: </label>
+                        <input type="password" class="form-control" placeholder="*Enter pass" id="password" [(ngModel)]="password">
+                    </div>
+                    <div class="row form-group">
+                <div class="col-sm-12">
+                    <button (click)="Sigin()" class="btn btn-info float-right col-sm-2">Login</button>
+                </div>
+            </div>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>            
+    </div>
+</div>
